@@ -42,13 +42,13 @@
             width: 44px;
             height: 44px;
             border-radius: 14px;
-            border: 1px solid #e6e7f2;
-            background: #f8f9ff;
+            border: 1px solid var(--social-border);
+            background: var(--social-bg);
             display: inline-flex;
             align-items: center;
             justify-content: center;
             color: var(--accent);
-            box-shadow: 0 12px 18px rgba(29, 31, 70, 0.08);
+            box-shadow: var(--social-shadow);
             transition: transform 0.2s ease;
         }
 
